@@ -5,6 +5,7 @@ const Input = ({type,name,inputVal,handleInput})=>{
         <input 
             type={type} 
             name={name} 
+            placeholder="Add task"
             onChange={handleInput} 
             value={inputVal}
             className="form-control"

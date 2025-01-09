@@ -24,7 +24,7 @@ let initialState = [
  ]
 
 const FunctionalComponent = ()=>{
-    const [inputText, setInputText] = useState('enter text');
+    const [inputText, setInputText] = useState('');
     const [task, setTask] = useState(initialState);
     const deferedText = useDeferredValue(task);
 
