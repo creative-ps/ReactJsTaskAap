@@ -8,6 +8,9 @@ const UserForm = ({inputText, deferedText, handleInput,  handleAddTask, checkBox
     return (
         <> 
                 <form method="post"  className="userForm d-flex flex-column mt-5 mb-4">
+                    <div>
+                        Add task for today: <input type="date" name="taskDate" value={""}/>
+                    </div>
                     <label>
                             <Input 
                                 type="text"
